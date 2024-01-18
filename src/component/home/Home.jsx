@@ -1,15 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-
+import piscina2 from "../../imagenes/fotoGalery/piscina2.jpg"
+import restaurante from "../../imagenes/fotoGalery/restaurante.jpg"
+import bar from "../../imagenes/fotoGalery/bar.jpg"
 import Footer from "../footer/Footer"
 
-// const slides = [
-//   "../../imagenes/fotoCarousell/carousell01.jpg",
-//   "../../imagenes/fotoCarousell/corousell02.jpg",
-//   "../../imagenes/fotoCarousell/corousell03.jpg",
-//   "../../imagenes/fotoCarousell/carousell04.jpg"
-// ]
+
 
 
 export default function Home() {
@@ -28,7 +25,7 @@ export default function Home() {
         <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 border-black ">
           <div>
             <img
-              src="https://scontent.feoh11-1.fna.fbcdn.net/v/t39.30808-6/265286489_299462272187545_7355246850095483966_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=kClQQ-I4jNkAX8cdmH2&_nc_ht=scontent.feoh11-1.fna&oh=00_AfAy5UwyA53ubCVTQ4snq0lBWcGGmAlxvqp8n2sB1GHzsQ&oe=65A31504"
+              src={piscina2}
               alt=""
               class="object-cover w-full h-56 mb-5 bg-center rounded transition ease-in-out delay-150  hover:-translate-y-2 hover:scale-110  duration-500"
             />
@@ -49,7 +46,7 @@ export default function Home() {
           <div>
             <figure>
               <img
-                src="https://scontent.feoh11-1.fna.fbcdn.net/v/t39.30808-6/366283554_760534712746963_3504759313049422210_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=BDUvhlYoYDoAX9Axub8&_nc_ht=scontent.feoh11-1.fna&oh=00_AfBQHMQoHrGUH-mRP5r2jjDqrzyXj0txSFkb0lrhng6nhg&oe=65A2EACF"
+                src={restaurante}
                 alt=""
                 class="object-cover w-full h-56 mb-5 bg-center rounded transition ease-in-out delay-150  hover:-translate-y-2 hover:scale-110  duration-500"
               />
@@ -95,7 +92,7 @@ export default function Home() {
           <div>
             <figure>
               <img
-                src="https://scontent.feoh11-1.fna.fbcdn.net/v/t39.30808-6/395643112_18201424003277504_1122174396978088726_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=uKVDtmWpfukAX9OyYIi&_nc_ht=scontent.feoh11-1.fna&oh=00_AfBwbeVp8y54cd6lBCiDAeXqksfeu8NlaEvCggfDwWz4Zw&oe=65A2E02D"
+                src={bar}
                 alt=""
                 class="object-cover w-full h-56 mb-5 bg-center rounded transition ease-in-out delay-150  hover:-translate-y-2 hover:scale-110  duration-500"
               />
